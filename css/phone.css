@@ -1,0 +1,84 @@
+.imagebox {
+    width: 60px;
+    height: 60px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+    position: relative;
+}
+
+.rightbox {
+    position: absolute;
+    width: 120px;
+    top: 100%;
+    left: -100%;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.20);
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    display: none;
+    background: #ffffff;
+}
+
+.sections {
+    width: 100%;
+    margin: 5% auto;
+    padding: 0px 0px;
+    background: #ffffff;
+}
+
+.messages {
+    margin-left: 1%;
+    color: black;
+    font-size: 1em;
+}
+
+.messages .insidemess li {
+    width: 60%;
+    line-height: 40px;
+    float: left;
+}
+
+.audiobox {
+    width: 95%;
+}
+
+.audios p {
+    transition: 1s;
+}
+
+.transforms {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 5%;
+    right: 20%;
+}
+
+@keyframes identifier {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-450px);
+    }
+}
+
+.transforms ul li:nth-child(1) {
+    /* 先绕y轴旋转60度,再沿z轴平移200px,就会形成立体感 */
+    transform: rotateY(90deg) translateZ(50px)
+}
+
+.transforms ul li:nth-child(2) {
+    transform: rotateY(180deg) translateZ(50px)
+}
+
+.transforms ul li:nth-child(3) {
+    transform: rotateY(270deg) translateZ(50px)
+}
+
+.transforms ul li:nth-child(4) {
+    transform: rotateY(360deg) translateZ(50px)
+}

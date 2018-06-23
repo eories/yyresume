@@ -1,0 +1,19 @@
+{
+    "work": [{
+            "language": "JavaScript",
+            "frame": "无",
+            "workname": "悦读平台",
+            "describe": "使用原生JavaScript编写的一个文章分享类应用，用户可以发布文章，浏览文章，并对文章进行评论，用户有自己独立的头像并可对自己的个人信息进行修改， 是一个分享社区的简化版。 ",
+            "technicalpoints": "跨域，json,ajax,Web Storage,图片预览,瀑布流,图片预加载,图片懒加载.",
+            "link": "https://github.com/anxizhihai/Reading.git"
+        },
+        {
+            "language": "Javascript",
+            "frame": "JQuery",
+            "workname": "酒店系统",
+            "describe": "酒店项目是一个完整的酒店类项目，用户在这里可以浏览酒店列表，选择喜欢的酒店，权衡地理位置，用户评价，酒店价格等多方位因素来预定喜欢的酒店，实现了支付功能，且带有打分评价功能。",
+            "technicalpoints": "JQuery Ajax,Formdata,百度地图JavaScript API v3.0.",
+            "link": "https://github.com/anxizhihai/Hotel.git"
+        }
+    ]
+}

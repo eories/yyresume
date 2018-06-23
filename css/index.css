@@ -1,0 +1,369 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    /* background: #F1F1F1; */
+}
+
+.headers {
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+    border-bottom: 1px solid #444547;
+}
+
+.resumeheader {
+    width: 180px;
+    font-size: 1.5em;
+    color: #666;
+    float: left;
+    line-height: 60px;
+    margin-left: 10%;
+    transition: 1s;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    perspective: 500px;
+}
+
+.resumeheader:hover {
+    transform: translateX(20px);
+    /* transform: rotateZ(360deg); */
+    transform: rotateX(360deg);
+    /* transform: rotateY(360frg); */
+}
+
+.imagebox {
+    width: 60px;
+    height: 60px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    position: relative;
+}
+
+.imagebox img {
+    width: 70%;
+}
+
+.imagess {
+    transition: 1s;
+}
+
+.imagebox:hover .imagess {
+    transform: scale(1.2, 1.2) translateX(5px);
+}
+
+.rightbox {
+    position: absolute;
+    width: 120px;
+    top: 100%;
+    left: 10%;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.20);
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    display: none;
+    background: #ffffff;
+}
+
+#container:after {
+    display: block;
+    content: '.';
+    clear: both;
+    line-height: 0;
+    visibility: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+.imagebox:hover .rightbox {
+    display: none;
+}
+
+.rightbox li {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    transition: 1s;
+}
+
+.rightbox li:hover {
+    transform: translateX(10px);
+    color: blue;
+}
+
+.sections {
+    width: 70%;
+    margin: 5% auto;
+    padding: 20px 50px;
+    background: #ffffff;
+}
+
+.audios {
+    width: 140px;
+    line-height: 40px;
+    /* background: #5944C3; */
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.audios p {
+    font-size: 1em;
+    transition: 1s;
+    margin: 0px;
+}
+
+.audios:hover p {
+    transform: translateY(5px);
+}
+
+.audios:hover {
+    background: rgba(100, 41, 177, 0.15);
+}
+
+.messages {
+    margin-left: 5%;
+    color: black;
+    font-size: 1em;
+    position: relative;
+}
+
+.messages .insidemess li {
+    width: 20%;
+    line-height: 40px;
+    float: left;
+    margin-left: 30px;
+}
+
+.messages div:after {
+    display: block;
+    content: '.';
+    clear: both;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.messages:after {
+    display: block;
+    content: '.';
+    clear: both;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.messagejob {
+    width: 95%;
+    text-align: center;
+    font-size: 0.8em;
+    /* margin-bottom: 5%; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.audiobox {
+    width: 100%;
+    padding: 5px 5px;
+}
+
+.insidemess {
+    float: left;
+    width: 80%;
+}
+
+.lis {
+    width: 100%;
+    float: left;
+    padding: 5px 0px;
+}
+
+.messagejobs {
+    height: 150px;
+    font-size: 1em;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+.messagejobs:after {
+    display: block;
+    content: '.';
+    clear: both;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.hotsearch li:first-child::before {
+    content: '1.';
+    color: #FF8000;
+}
+
+.hotsearch li:nth-child(2)::before {
+    content: '2.';
+    color: #FF8000;
+}
+
+.lis {
+    animation: identifiers 8s linear 1.5s infinite;
+}
+
+@keyframes identifiers {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-80px);
+    }
+}
+
+@keyframes identifier {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-540px);
+    }
+}
+
+.works {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.workbox {
+    width: 90%;
+    margin-bottom: 30px;
+    animation: identifier 10s linear 1.5s infinite;
+    margin-left: 5%;
+    padding: 0px 5px;
+}
+
+.workbox div {
+    margin-bottom: 5px;
+}
+
+.worksname {
+    padding-left: 3%;
+}
+
+.worksname span {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.language span:first-child {
+    font-size: 1em;
+    font-weight: 600
+}
+
+.worksname span:first-child {
+    font-size: 1em;
+    font-weight: 600
+}
+
+.blog {
+    width: 95%;
+    font-size: 0.8em;
+    margin-left: 5%;
+    padding: 2% 0px;
+}
+
+.blog span:first-child {
+    font-size: 0.8em;
+    font-weight: 600
+}
+
+.evaluations {
+    margin-left: 5%;
+    padding: 2% 0px;
+}
+
+.transforms {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -15%;
+    right: 15%;
+}
+
+.transforms ul {
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    margin: 60px auto;
+    /* 父盒子开启3d */
+    transform-style: preserve-3d;
+    /* perspective: 500px; */
+    /* 引入动画效果 */
+    animation: rotate 6s linear infinite;
+}
+
+@keyframes rotate {
+    /* 旋转沿x轴旋转-10度,再绕y轴旋转 */
+    0% {
+        transform: rotateX(-10deg) rotateY(0deg)
+    }
+    100% {
+        transform: rotateX(-10deg) rotateY(360deg)
+    }
+}
+
+.transforms ul li img {
+    /* 图片和父盒子一样大 */
+    width: 100%;
+    height: 100%;
+}
+
+.transforms ul li {
+    /* 绝对定位,先让li标签重叠 */
+    position: absolute;
+}
+
+.transforms ul li:nth-child(1) {
+    /* 先绕y轴旋转60度,再沿z轴平移200px,就会形成立体感 */
+    transform: rotateY(90deg) translateZ(100px)
+}
+
+.transforms ul li:nth-child(2) {
+    transform: rotateY(180deg) translateZ(100px)
+}
+
+.transforms ul li:nth-child(3) {
+    transform: rotateY(270deg) translateZ(100px)
+}
+
+.transforms ul li:nth-child(4) {
+    transform: rotateY(360deg) translateZ(100px)
+}
+
+
+/* .transforms ul li:nth-child(5) {
+    transform: rotateY(300deg) translateZ(200px)
+}
+
+.transforms ul li:nth-child(6) {
+    transform: rotateY(360deg) translateZ(200px)
+} */
+
+.footers {
+    width: 100%;
+    height: 120px;
+    background: #444547;
+    color: #999;
+    text-align: center;
+}
+
+.footers p {
+    float: right;
+    margin-right: 20%;
+    margin-top: 50px;
+}

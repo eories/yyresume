@@ -1,0 +1,20 @@
+.messages {
+    margin-left: 5%;
+    color: black;
+    font-size: 1em;
+    position: relative;
+}
+
+.messagejobs,
+.works,
+.link,
+.evaluation {
+    font-size: 1em;
+}
+
+.messages .insidemess li {
+    width: 40%;
+    line-height: 40px;
+    float: left;
+    color: black;
+}

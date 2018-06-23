@@ -1,0 +1,12 @@
+{
+    "professionalskills": [
+        { "skills": "精通响应式布局" },
+        { "skills": "精通css/html,熟练掌握css3/html5" },
+        { "skills": "精通javascript,数量掌握理解DOM操作" },
+        { "skills": "精通AJAX等相关技术" },
+        { "skills": "了解小程序开发流程" },
+        { "skills": "了解vue 组件化开发，vue生命周期" },
+        { "skills": "熟练掌握JQuery框架" },
+        { "skills": "熟悉xml/json等数据交换格式" }
+    ]
+}
